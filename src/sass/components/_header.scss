@@ -36,7 +36,9 @@
 
 .nav__link {
 
+
     &:hover {
-        color: 1 solid var(--active-element);
+        // color: var(--active-element);
+        border-bottom: 3px solid var(--active-element);
     }
 }
