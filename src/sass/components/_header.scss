@@ -1,0 +1,42 @@
+.header__section {
+    background: url(./../images/abstract-background-with-red-lines-mobile.jpg);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__container {}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 54px;
+}
+
+.logo__link {
+    max-width: 24px;
+    max-height: 24px;
+
+    background-color: aliceblue;
+}
+
+.logo__icon {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+}
+
+.nav__link {
+
+    &:hover {
+        color: 1 solid var(--active-element);
+    }
+}

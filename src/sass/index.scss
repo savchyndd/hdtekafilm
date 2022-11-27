@@ -1,5 +1,10 @@
 @import './common';
 
+@import './base/global';
+@import './base/reset';
+@import './utils/vars';
+
+
 @import './components/header';
 @import './components/main';
 @import './components/footer';

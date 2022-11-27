@@ -1,0 +1,22 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--white-color);
+    overflow: overlay;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding: 40px 0;
+    background-color: #000;
+}
+
+.container {
+    max-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
