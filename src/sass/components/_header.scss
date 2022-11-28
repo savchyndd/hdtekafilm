@@ -1,9 +1,13 @@
-.header__section {
+.header__wrapper {
     background: url(./../images/abstract-background-with-red-lines-mobile.jpg);
     opacity: 0.9;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.header__section {
+    background-color: var(--bg-black-color);
 }
 
 .header__container {}
@@ -19,16 +23,27 @@
     max-width: 24px;
     max-height: 24px;
 
-    background-color: aliceblue;
+    stroke: white;
+
+    &:hover,
+    &:focus {
+        stroke: var(--active-element);
+    }
 }
 
 .logo__icon {}
 
 .nav__list {
     display: flex;
+    align-items: center;
 }
 
 .nav__item {
+    font-size: 12px;
+    line-height: 14px;
+
+    text-transform: uppercase;
+
     &:not(:last-child) {
         margin-right: 40px;
     }
@@ -37,8 +52,43 @@
 .nav__link {
 
 
-    &:hover {
-        // color: var(--active-element);
+    &:hover,
+    &:focus {
         border-bottom: 3px solid var(--active-element);
     }
+}
+
+.search__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 4px;
+
+    border-bottom: 0.5px solid var(--white-color);
+}
+
+.search__input {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    color: inherit;
+
+    // &::placeholder {
+    //     // color: var(--white-color);
+    // }
+
+    &:active,
+    &:hover,
+    &:focus {
+        outline: 0;
+        outline-offset: 0;
+    }
+}
+
+.search__btn {
+    display: flex;
+    align-items: center;
+    height: 12px;
+    background-color: transparent;
 }

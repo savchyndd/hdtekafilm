@@ -1,6 +1,9 @@
 body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
     color: var(--white-color);
+
     overflow: overlay;
 }
 
@@ -12,7 +15,6 @@ img {
 
 .section {
     padding: 40px 0;
-    background-color: #000;
 }
 
 .container {
