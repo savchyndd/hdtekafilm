@@ -15,10 +15,22 @@ img {
 
 .section {
     padding: 40px 0;
+
+    @include for-tablet-up {}
 }
 
 .container {
-    max-width: 320px;
+    min-width: 320px;
     padding: 0 20px;
     margin: 0 auto;
+
+    @include for-tablet-up {
+        min-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    @include for-desktop-up {
+        min-width: 1280px;
+    }
 }

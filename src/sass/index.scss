@@ -1,10 +1,12 @@
-@import './common';
-
+// utils
+@import './utils/common';
+@import './utils/adaptive-mixin';
+@import './utils/visually-hidden';
+@import './utils/vars';
+// base style
 @import './base/global';
 @import './base/reset';
-@import './utils/vars';
-
-
+// components
 @import './components/header';
 @import './components/main';
 @import './components/footer';
