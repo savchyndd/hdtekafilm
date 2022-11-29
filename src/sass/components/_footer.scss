@@ -1,0 +1,33 @@
+.footer__section {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    background-color: var(--grey-color);
+}
+
+// .section {}
+
+.footer__container {
+    text-align: center;
+}
+
+// .container {}
+
+.copyright {
+    max-width: 236px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: var(--copyright-text-color);
+}
+
+.copyright__icon {
+    margin: 0 10px;
+}
+
+.copyright--second-text {
+    display: inline-flex;
+    align-items: center;
+
+    margin-top: 10px;
+}

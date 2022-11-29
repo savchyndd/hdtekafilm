@@ -38,7 +38,7 @@
     // max-width: 24px;
     // max-height: 24px;
 
-    stroke: white;
+    stroke: var(--white-color);
 
     &:hover,
     &:focus {
@@ -59,6 +59,8 @@
     line-height: 1.16;
     margin-left: 8px;
 
+    color: var(--white-color);
+
     @include for-tablet-up {
         display: block;
     }
@@ -74,6 +76,7 @@
     line-height: 14px;
 
     text-transform: uppercase;
+    color: var(--white-color);
 
     &:not(:last-child) {
         margin-right: 40px;
@@ -81,7 +84,6 @@
 }
 
 .nav__link {
-
 
     &:hover,
     &:focus {

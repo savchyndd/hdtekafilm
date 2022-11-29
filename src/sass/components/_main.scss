@@ -103,6 +103,8 @@
     line-height: 1.33;
 
     color: var(--black-color);
+    fill: var(--black-color);
+    stroke: var(--black-color);
 
     &:not(:last-child) {
         margin-right: 16px;
