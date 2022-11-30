@@ -106,6 +106,8 @@
     fill: var(--black-color);
     stroke: var(--black-color);
 
+    cursor: pointer;
+
     &:not(:last-child) {
         margin-right: 16px;
     }

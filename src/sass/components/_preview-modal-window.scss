@@ -1,0 +1,102 @@
+.backdrop {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+// .is-hidden {
+//     visibility: hidden;
+//     opacity: 0;
+//     pointer-events: none;
+// }
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 48px 20px 40px;
+    background-color: var(--white-color);
+    max-width: 280px;
+    // @include media(max-mobile) {
+    //         min-width: 0px;
+    //         min-height: 0px;
+    //     }
+
+    //     @include media(min-mobile) {
+    //         min-width: 450px;
+    //         min-height: 609px;
+    //     }
+
+    //     @include media(desktop) {
+    //         min-width: 528px;
+    //         min-height: 581px;
+    //     }
+}
+
+.modal__close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: transparent;
+    stroke: black;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        stroke: var(--active-btn-color);
+    }
+}
+
+// .modal__close-icon {}
+
+// .film__img {}
+
+// .film__title {}
+
+// .film-info__list {}
+
+// .film-info__item {}
+
+// .film-info__label {}
+
+// .film-info__desc {}
+
+// .desc__vote {}
+
+// .desc__votes {}
+
+// .film__desc-label {}
+
+// .film__desc {}
+
+.btn--film {
+    padding: 6px 13px;
+
+    max-width: 110px;
+
+    color: var(--black-color);
+    border: 1px solid var(--black-color);
+}
+
+.btn--active {
+    color: var(--white-color);
+    border: 1px solid var(--active-btn-color);
+    background-color: var(--active-btn-color);
+    filter: drop-shadow(0px 8px 43px var(--shadow-btn-color));
+}

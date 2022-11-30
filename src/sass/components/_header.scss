@@ -143,6 +143,8 @@
     background-color: transparent;
     stroke: var(--white-color);
 
+    cursor: pointer;
+
     &:hover,
     &:focus {
         stroke: var(--active-element);
@@ -150,7 +152,7 @@
 }
 
 .search__error-input {
-    // display: none;
+    display: none;
     font-size: 14px;
     margin: 16px 0 0;
     color: var(--active-element);
