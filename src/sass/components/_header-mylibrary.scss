@@ -37,6 +37,18 @@
             margin-right: 16px;
         }
     }
+
+    @include for-tablet-up {
+        width: 152px;
+        padding-left: 46px;
+        padding-right: 46px;
+    }
+
+    @include for-desktop-up {
+        width: 148px;
+        padding-left: 42px;
+        padding-right: 42px;
+    }
 }
 
 .header__btn--active {
