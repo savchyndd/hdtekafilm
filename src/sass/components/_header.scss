@@ -35,10 +35,8 @@
 }
 
 .logo__link {
-    // max-width: 24px;
-    // max-height: 24px;
-
     stroke: var(--white-color);
+    color: var(--white-color);
 
     &:hover,
     &:focus {
@@ -59,7 +57,6 @@
     line-height: 1.16;
     margin-left: 8px;
 
-    color: var(--white-color);
 
     @include for-tablet-up {
         display: block;
@@ -89,6 +86,10 @@
     &:focus {
         border-bottom: 3px solid var(--active-element);
     }
+}
+
+.nav__link--active {
+    border-bottom: 3px solid var(--active-element);
 }
 
 .search__form-wrapper {
