@@ -32,6 +32,10 @@
     justify-content: space-between;
 
     margin-bottom: 54px;
+
+    @include for-tablet-up {
+        margin-bottom: 40px;
+    }
 }
 
 .logo__link {

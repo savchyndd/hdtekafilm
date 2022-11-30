@@ -1,7 +1,7 @@
 <div class="header__wrapper">
   <section class="header__section section">
     <div class="header__container container">
-      <nav class="site-nav">
+      <nav class="site-nav site-nav--mylibrary">
         <a href="./index.html" class="logo__link">
           <svg class="logo__icon" width="24" height="24" aria-label="Logo">
             <use href="./images/icons.svg#icon-logo"></use>
@@ -21,8 +21,12 @@
         </ul>
       </nav>
 
-      <button class="header__btn" type="button">Watched</button>
-      <button class="header__btn" type="button">Queue</button>
+      <div class="header__btn-wrapper">
+        <button class="header__btn header__btn--active" type="button">
+          Watched
+        </button>
+        <button class="header__btn" type="button">Queue</button>
+      </div>
     </div>
   </section>
 </div>
