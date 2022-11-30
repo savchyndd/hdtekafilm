@@ -1,6 +1,6 @@
 .footer__section {
-    padding-top: 29px;
-    padding-bottom: 29px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: var(--grey-color);
 }
 
@@ -19,6 +19,13 @@
     font-size: 14px;
 
     color: var(--copyright-text-color);
+
+    @include for-tablet-up {
+        max-width: 482px;
+
+        font-size: 16px;
+        line-height: 1.187;
+    }
 }
 
 .copyright__icon {
@@ -29,5 +36,9 @@
     display: inline-flex;
     align-items: center;
 
-    margin-top: 10px;
+    margin-top: 8px;
+
+    @include for-tablet-up {
+        margin-top: 0;
+    }
 }
